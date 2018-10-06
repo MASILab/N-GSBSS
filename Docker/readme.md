@@ -6,3 +6,5 @@ sudo docker run -it --rm -v  /customdir/INPUTS/:/INPUTS/ -v /customdir/OUTPUTS/:
 
 ## Input data structure
 https://github.com/MASILab/N-GSBSS/wiki
+
+This has been tested on Ubuntu 16.04 and Mac OS
