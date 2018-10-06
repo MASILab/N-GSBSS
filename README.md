@@ -1,5 +1,5 @@
-# GSBSS
-Gray matter Surface Based Spatial Statistics
+# N-GSBSS
+Improved Gray Matter Surface based Spatial Statistics (N-GSBSS) in Neuroimaging Studies
 
 ## Overview
-Gray matter Surface Based Spatial Statistics (GS-BSS) pipeline enables perform statistical analysis of multi-modal data using gray matter surfaces.
+
