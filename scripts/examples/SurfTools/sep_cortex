@@ -1,0 +1,6 @@
+#!/bin/tcsh
+if ($# == 3) then
+	matlab -nodisplay -nodesktop -nosplash -r "addpath('Tessellation');run_separate_hemi('$1','$2','$3'); exit"
+else
+	echo usage: $0 input_file output1 output2
+endif

@@ -1,0 +1,10 @@
+#!/bin/tcsh
+if ($# == 3) then
+	set name = _tmp_whole_hm.$1:t
+	set outDirectory = $2:h
+
+echo	matlab -nodisplay -nodesktop -nosplash -r "addpath('/home-nfs/masi-shared-home/home/local/VANDERBILT/lyui/Tools/Tessellation');run_separate_hemi('$outDirectory','$name','$1','$2','$3'); exit"
+	matlab -nodisplay -nodesktop -nosplash -r "addpath('/home-nfs/masi-shared-home/home/local/VANDERBILT/lyui/Tools/Tessellation');run_separate_hemi('$outDirectory','$name','$1','$2','$3'); exit"
+else
+	echo usage: $0 input_file output1 output2
+endif
