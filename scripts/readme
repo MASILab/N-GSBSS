@@ -1,1 +1,8 @@
 processing scripts to run prerequisite pipelines
+
+## To get cortical thickness txt file from MaCRUISE outputs to be places in txt_files_0 folder 
+ getThickness('${cruiseDir}/Thickness/target_image_GMimg_innerVol_thickness.mat',
+ '${cruiseDir}/Surfaces_FreeView/target_image_GMimg_centralSurf.asc',
+ '${cruiseDir}/Surfaces_FreeView/target_image_GMimg_innerSurf.asc',
+ '${cruiseDir}/Raw/T1.nii',
+ '/INPUTS/$subjName/txt_files_0'); 
